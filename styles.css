@@ -1,6 +1,11 @@
 
 
-/*Estilos generales contenedores base*/
+/*Estilos generales y contenedores base*/
+
+html{
+    background-color: rgb(230, 232, 132);
+}
+
 .main_header, .main_body, .main_footer{
     display: flex;
     background-color: black;
@@ -128,6 +133,10 @@
 /* Para tabletas */
 @media (max-width: 991.98px) {
 
+    html{
+        background-color: rgb(132, 159, 232);
+    }
+
     .main_body{
         flex-direction: column;
     }
@@ -150,6 +159,10 @@
 
 /* Para móviles */
 @media (max-width: 575.98px) {
+
+    html{
+        background-color: rgb(232, 132, 207);
+    }
     
     .article_container1, .article_container2{
         flex-direction: column;
