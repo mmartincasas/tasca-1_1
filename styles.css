@@ -1,0 +1,123 @@
+
+
+/*Estilos generales contenedores base*/
+.main_header, .main_body, .main_footer{
+    display: flex;
+    background-color: black;
+    max-width: 1200px;
+    color: rgb(0, 0, 0);
+    margin: 16px;
+}
+
+
+/*HEADER: Containers & items*/
+/***************************/
+.main_header{
+    flex-direction: column;
+}
+
+.nav_container{
+    display: flex;
+    background-color: rgb(54, 51, 86);
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 8px
+}
+
+.logo_box, .nav_box, .social_box  {
+    background-color: rgb(226, 76, 76);
+    padding: 10px;
+    margin: 16px;
+    flex: 1;
+}
+
+.logo_box, .social_box {
+    flex-grow: 0.5;
+}
+
+.banner_container {
+    display: flex;
+    background-color: rgb(231, 145, 16);
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px; 
+}
+
+.banner_box{
+    background-color: yellow;
+    padding: 10px;
+    margin: 16px;
+    flex: 1;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+/***************************/
+
+
+/*BODY: Containers & items*/
+/***************************/
+.body_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: rgb(54, 51, 86);
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+}
+
+.article_container1, .article_container2{
+    display: flex;
+}
+
+.article_box {
+    background-color: #3434c2;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+
+.navegacion_container{
+    display: flex;
+}
+
+.navegacion_box{
+    background-color: #50c9e7;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+
+.publi_container {
+    background-color: #fe1504;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 12px;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 16px;
+    margin-bottom: 16px; 
+}
+
+.publi_box {
+    background-color: #fcf809;
+    padding: 10px;
+    margin: 10px;
+}
+/***************************/
+
+
+/*FOOTER: Containers & items*/
+/***************************/
+.footer_box {
+    background-color: #dfe437;
+    padding: 10px;
+    margin: 15px;
+    flex: 1;
+}
+/***************************/
