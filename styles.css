@@ -121,3 +121,33 @@
     flex: 1;
 }
 /***************************/
+
+
+/******MEDIA QUERYS*********/
+
+/* Para tabletas */
+@media (max-width: 991.98px) {
+
+    .main_body{
+        flex-direction: column;
+    }
+
+    .nav_container{
+        flex-direction: column;
+    }
+
+    .body_container{
+        margin-right: 16px;
+        margin-bottom: 8px;
+    }
+
+    .publi_container {
+        margin-top: 8px;
+        margin-left: 16px;
+    }
+
+
+
+  }
+
+
