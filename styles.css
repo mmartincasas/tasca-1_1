@@ -146,8 +146,18 @@
         margin-left: 16px;
     }
 
+}
+
+/* Para móviles */
+@media (max-width: 575.98px) {
+    
+    .article_container1, .article_container2{
+        flex-direction: column;
+    }
+
+}
 
 
-  }
+
 
 
