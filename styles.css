@@ -170,6 +170,20 @@ html{
 
 }
 
+/*****ANIMACIONES********/
+
+  /* Estilo base de .logo_box */
+  .logo_box {
+    cursor: pointer; /* Cambia el cursor a mano */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambio de color al hacer hover */
+.logo_box:hover {
+    background-color: #47ff78; /* Cambio de color */
+    transform: scale(1.02); /* Aumenta el tamaño */
+}
+
 
 
 
